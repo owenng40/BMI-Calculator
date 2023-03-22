@@ -19,7 +19,7 @@ if button:
     st.success("You are AT LOW RISK for obesity-related diseases.")
   if bmi >= 23 and bmi < 27.5:
     st.success("You are AT MODERATE RISK for obesity-related diseases.")
-  if bmi => 27.5:
+  if bmi >= 27.5:
     st.success("You are AT HIGH RISK for obesity-related diseases.")
-  if bmi =< 18.5:
+  if bmi <= 18.5:
     st.success("You are at risk nutritional deficiency diseases and osteoporosis.")
